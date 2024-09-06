@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: rgb(224, 224, 86);">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" style="background-color: rgb(246, 174, 86);">
+        <h1>About Me</h1>
+        <p style="color: white;">I’m Muhammad Talha, a passionate Software Engineering student at Islamia College, and I’m delighted to share my portfolio with you. Here, you'll discover a showcase of my journey in the world of technology and design, blending my skills in HTML, CSS, JavaScript, and C++ into innovative and practical solutions.
+
+            As I progress through my studies, I am continually honing my craft and exploring new possibilities in the realm of software development and design. Each project in this portfolio represents my dedication to creating seamless, user-centric experiences and my commitment to pushing the boundaries of what’s possible with code and design.
+            
+            Feel free to explore, and don’t hesitate to reach out if you’d like to discuss potential projects or collaborations. Thank you for visiting, and welcome to my creative space!</p>
+    </section>
+
+    <section style="background-color: bisque;" id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="row">
+                <!-- Add project cards here -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description of Project 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other projects -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>HTML <br>
+        CSS <br>
+        JavaScript <br>
+        Bootstrap  <br>
+        Node Js <br>
+        
+        
+        
+        
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button style="background-color: rgb(243, 177, 9);" type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <footer style="background-color: rgb(212, 255, 0);">
+        <p style="color: rgb(0, 0, 0);">My Portfolio</p>
+    </footer>
+
+    <!-- Add Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

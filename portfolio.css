@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#about {
+    background-color: #e9ecef;
+}
+
+#projects {
+    background-color: #f8f9fa;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
